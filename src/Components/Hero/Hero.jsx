@@ -2,6 +2,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import { IoIosArrowRoundForward } from 'react-icons/io'
+// eslint-disable-next-line no-unused-vars
 import image1 from "../../assets/std1.jpg"
 import image2 from "../../assets/std2.jpg"
 import {motion} from "framer-motion"
@@ -58,12 +59,13 @@ const Hero = () => {
                     initial = {{x:50, opacity:0}}
                     animate = {{x:0, opacity:1}}
                     transition={{duration:0.6, delay:0.4, ease: "easeOut"}}
-                    className='w-[400px] xl:w-[600px] relative z-10 drop-shadow' src= {image1} alt='Hero Image'/>
-                <motion.img
+                    className='w-[400px] xl:w-[600px] relative z-10 drop-shadow' src= {image2} alt='Hero Image'/>
+                {/* <motion.img
                     initial = {{x:-50, opacity:0}}
                     animate = {{x:0, opacity:1}}
                     transition={{duration:0.6, delay:0.2, ease: "easeOut"}}
                     className='absolute -bottom-32 w-[500px] md:w-[800px] z-[1] hidden md:block' src={image2} alt="" />
+             */}
             </div>
         </div>
     </section>
