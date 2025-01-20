@@ -11,13 +11,8 @@ import { TbWorldWww } from 'react-icons/tb';
 import { BiSupport } from 'react-icons/bi';
 import {
   SiGatsby,
-  // SiGoogleAnalytics,
   SiAdobe,
   SiContentful,
-  // SiDigitalOcean,
-  // SiGoogleAdwords,
-  // SiLegalShield,
-  // SiAmazonaws, // Corrected icon name
   SiTrello,
   SiFreelancer,
   SiGoogleanalytics,
@@ -26,10 +21,7 @@ import {
   SiGooglebigtable,
   SiAmazonapigateway,
   SiWesterndigital,
-  // SiDigitalStrategy
 } from 'react-icons/si';
-
-
 
 const serviceData = [
   {
@@ -48,7 +40,6 @@ const serviceData = [
     icon: <IoPulseOutline />,
     delay: 0.6,
   },
-  
   {
     id: 3,
     title: 'Software Development',
