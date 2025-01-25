@@ -4,6 +4,8 @@ import React from 'react'
 import Hero from './Components/Hero/Hero'
 import Services from './Components/Services/Services'
 import Bannieres from './Components/Bannieres/Bannieres'
+import Inscription from './Components/Inscription/Inscription'
+import Bannieres2 from './Components/Bannieres/Bannieres2'
 
 const App = () => {
   return (
@@ -13,6 +15,9 @@ const App = () => {
       <Hero/>
       <Services/>
       <Bannieres/>
+      <Inscription/>
+      <Bannieres2/>
+
     </main>
   )
 }
